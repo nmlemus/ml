@@ -1,4 +1,4 @@
-# Machine learning: my own vision
+# Machine Learning: my own vision
 
 The main idea of this repository is to be my own place to organize all the knowledge about Machine Learning. There are many books, tutorials, etc. Over there. Sometimes you read something, you create your own code and in two years you don't remember where you put the codes, how to apply this knowledge to solve a problem.
 

@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to Noel's Machine Learning World 
 
-You can use the [editor on GitHub](https://github.com/nmlemus/ml/edit/gh-pages/docs/index.md) to maintain and preview the content for your website in Markdown files.
+In this blog, you are going to see how I understand ML. I am an Assistant Professor at the University for the last 20 years.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 

@@ -8,8 +8,8 @@ He decidido hacerlo en español porque:
 
 ## Indice General:
 
-- Parte I: Introducción
-    - Capítulo Uno: ¿Qué es el Aprendizaje Automático?
-    - Capítulo Dos: Ciencia de Datos: ¿Nueva profesión?
+### Parte I: Introducción
+- Capítulo Uno: ¿Qué es el Aprendizaje Automático?
+- Capítulo Dos: Ciencia de Datos: ¿Nueva profesión?
 
-- Parte II: Aprendizaje Supervisado y no Supervisado
+### Parte II: Aprendizaje Supervisado y no Supervisado

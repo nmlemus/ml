@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}
+\contentsline {part}{I\hspace {1em}Introducci\'on}{5}%
+\contentsline {chapter}{\numberline {1}Aprendizaje Autom\'atico}{7}%
+\contentsline {section}{\numberline {1.1}Algunas aplicaciones}{7}%
+\contentsline {section}{\numberline {1.2}Tipos de sistemas de Aprendizaje Autom\'atico}{7}%
+\contentsline {subsection}{\numberline {1.2.1}Aprendizaje Supervisado vs No Supervisado}{9}%
+\contentsline {subsubsection}{Aprendizaje Supervisado}{9}%
+\contentsline {subsubsection}{Aprendizaje No Supervisado}{9}%
+\contentsline {subsubsection}{Aprendizaje Semi-Supervisado}{9}%
+\contentsline {subsubsection}{Aprendizaje con Refuerzo}{9}%
+\contentsline {section}{\numberline {1.3}Principales Desafios del Aprendizaje Automatizado}{9}%

@@ -1,0 +1,111 @@
+\documentclass[10pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{mindmap}
+
+\usepackage[utf8]{inputenc}
+ 
+\title{Aprendizaje Autom\'atico}
+\author{Noel Moreno Lemus}
+\date{April 2022 }
+
+\begin{document}
+
+\maketitle
+  
+\tableofcontents
+
+\part{Introducci\'on}
+
+\chapter{Aprendizaje Autom\'atico}
+
+\section{Algunas aplicaciones}
+\begin{itemize}
+\item Analizar imagenes de productos en una linea de producci\'on para detectar anomalias o clasificar los productos en diferentes tipos.  En este caso pueden usarse Redes Neuronales de Convoluci\'on (Convolutional Neural Networks)
+\item Detecci\'on de tumores en escaneos cerebrales.  Nuevamente usando CNNs
+\item Clasificaci\'on autom\'atica de nuevos art\'iculos. Aqu\'i podemos usar t\'ecnicas de clasificaci\'on de textos como el procesamiento de lenguaje natural (NLP por sus siglas en ingl\'es)
+\item Marcar automáticamente comentarios ofensivos en foros de discusión,  nuevamente usamos NLP
+\item Pronosticar los ingresos de su empresa el próximo año, en función de muchas métricas de rendimiento.  Este es un problema de regresi\'on en el cual podriamos utilizar diversas t\'ecnicas como cualquier modelo de regresi\'on como Regresi\'on Lineal o Polinomial,  maquinas de soporte vectorial,  Random Forest,  o Redes Neuronales.
+\item Detecci\'on de Fraude en Tarjetas de Cr\'edito. Anomaly Detection
+\end{itemize}
+
+\section{Tipos de sistemas de Aprendizaje Autom\'atico}
+
+Hay tantos tipos diferentes de sistemas de Machine Learning que es útil clasificarlos en categorías amplias, según los siguientes criterios:
+\begin{itemize}
+\item Si están o no entrenados con supervisión humana (aprendizaje supervisado, no supervisado, semisupervisado y reforzado)
+\item Si pueden o no aprender gradualmente sobre la marcha (aprendizaje en línea versus aprendizaje por lotes)
+\item Ya sea que funcionen simplemente comparando nuevos puntos de datos con puntos de datos conocidos, o detectando patrones en los datos de entrenamiento y construyendo un modelo predictivo, como lo hacen los científicos (aprendizaje basado en instancias versus aprendizaje basado en modelos)
+\end{itemize}
+
+
+\begin{center}
+
+\begin{tikzpicture}[mindmap, grow cyclic, every node/.style=concept, concept color=orange!40, 
+	level 1/.append style={level distance=5cm,sibling angle=120},
+	level 2/.append style={level distance=3cm,sibling angle=60},
+	level 3/.append style={level distance=3cm,sibling angle=30},]
+\node{Machine Learning}
+child[concept color=blue!30] { node {Supervisi\'on}
+	child { node {Supervisado}}
+	child { node {No Supervisado}}
+	child { node {Semi-Supervisado}}
+	child { node {Aprendizaje con Refuerzo}}
+}
+child[concept color=yellow!30] { node {Batch and Online Learning}
+	child { node {Batch learning}}
+	child { node {Online learning}}
+}
+child[concept color=teal!40] { node {Instance-Based vs Model-Based Learning}
+	child { node {Instance-based learning}}
+	child { node {Model-based learning}}
+};
+
+\end{tikzpicture}
+
+\end{center}
+
+\subsection{Aprendizaje Supervisado vs No Supervisado}
+
+Las t\'ecnicas de Aprendizaje Autom\'atico puede clasificarse de acuerdo a la cantidad de supervisi\'on que requieran durante la etapa de entrenamiento.  Existen cuatro grandes categor\'ias: 
+\begin{itemize}
+\item Aprendizaje Supervisado,  
+\item No Supervisado,  
+\item Semi-Supervisado y 
+\item Aprendizaje con Refuerzo.
+\end{itemize}
+
+
+\subsubsection{Aprendizaje Supervisado}
+
+En el Aprendizaje Supervisado los datos de entrenamiento con los que se alimenta el algoritmo incluyen la soluci\'on deseada.  A esta soluci\'on de le llama label.
+
+El Aprendizaje Supervisado se puede dividir en dos grupos: \textit{clasificaci\'on} y \textit{regresi\'on}.  \textbf{Clasificaci\'on} es cuando la soluci\'on esperada (label) es un conjunto discreto de valores,  ejemplo cuando queremos clasificar los emails en spam o no.  La \textbf{regresi\'on}\footnote{algunos algoritmos pueden usarse tanto para tareas de clasificaci\'on como de regresi\'on, como la Regresi\'on Log\'istica que es muy utilizada en tareas de clasificaci\'on} por su parte,  es cuando la soluci\'on esperada es continua,  ejemplo: los precios de determinados productos.
+
+Algunos algoritmos de Aprendizaje Supervisado son:
+\begin{itemize}
+\item k-Nearest Neighbors
+\item Linear Regression
+\item Logistic Regression
+\item Support Vector Machines (SVMs) 
+\item Decision Trees and Random Forests 
+\item Neural networks
+\end{itemize}
+
+\subsubsection{Aprendizaje No Supervisado}
+
+El Aprendizaje no Supervisado es cuando los datos no han sido etiquetados,  ser\'ia una especie de aprendizaje autodidacta donde el algoritmmo intenta aprender sin nadie que lo ense
+
+\subsubsection{Aprendizaje Semi-Supervisado}
+
+\subsubsection{Aprendizaje con Refuerzo}
+
+\section{Principales Desafios del Aprendizaje Automatizado}
+
+
+\end{document}

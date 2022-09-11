@@ -1,4 +1,4 @@
-## Welcome to Noel's Machine Learning World 
+## Welcome to my Machine Learning Blog 
 
 In this blog, you are going to see how I understand ML. I am an Assistant Professor at the University for the last 20 years.
 

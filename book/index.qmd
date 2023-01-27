@@ -1,5 +1,11 @@
 # Introduction {.unnumbered}
 
+::: {.callout-caution}
+## Expand To Learn About Collapse
+
+Work in Progress
+:::
+
 Machine learning is a rapidly growing field that enables computers to learn from data, without being explicitly programmed. The goal of machine learning is to build models that can make predictions or take actions based on input data, and improve their performance over time through experience.
 
 ::: {.callout-note}

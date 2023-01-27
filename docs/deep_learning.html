@@ -8,7 +8,7 @@
 
 <meta name="description" content="A summary of the best practices for summarizing output of reproducible scientific documents.">
 
-<title>Machine Learning - 8&nbsp; Deep Learning</title>
+<title>Machine Learning - Deep Learning</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./advanced_topics.html" rel="next">
+<link href="./nn_back_propagation.html" rel="next">
 <link href="./unsupervised_learning.html" rel="prev">
 <link href="./logo_new.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <script async="" src="https://hypothes.is/embed.js"></script>
 
 
-<meta name="twitter:title" content="Machine Learning - 8&nbsp; Deep Learning">
+<meta name="twitter:title" content="Machine Learning - Deep Learning">
 <meta name="twitter:description" content="A summary of the best practices for summarizing output of reproducible scientific documents.">
 <meta name="twitter:card" content="summary">
 </head>
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Deep Learning</span></h1>
+      <h1 class="quarto-secondary-nav-title">Deep Learning</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -202,14 +202,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./deep_learning.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Deep Learning</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./advanced_topics.html" class="sidebar-item-text sidebar-link">Advanced Topics</a>
+            <a href="./deep_learning.html" class="sidebar-item-text sidebar-link active">Deep Learning</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -217,29 +212,59 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./graph_neural_networks.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">graph_neural_networks.html</span></a>
+  <a href="./nn_back_propagation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Neural Networks and Backpropagation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./reinforcement_learning.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Reinforcement Learning</span></a>
+  <a href="./cnn.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Convolutional Neural Networks (CNNs)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./generative_models.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Generative Models</span></a>
+  <a href="./rnn.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Recurrent Neural Networks (RNNs)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./model_interpretability.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Model Interpretability</span></a>
+  <a href="./cv_nlp.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Applications in Computer Vision and Natural Language Processing</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./advanced_topics.html" class="sidebar-item-text sidebar-link">Advanced Topics</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./graph_neural_networks.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Graph Neural Networks</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./reinforcement_learning.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Reinforcement Learning</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./generative_models.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Generative Models</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./model_interpretability.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Model Interpretability</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./conclusions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Conclusion</span></a>
+  <a href="./conclusions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Conclusion</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -249,12 +274,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Appendices</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">Appendices</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./appendices.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Appendices</span></a>
@@ -267,23 +292,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#neural-networks-and-backpropagation" id="toc-neural-networks-and-backpropagation" class="nav-link active" data-scroll-target="#neural-networks-and-backpropagation"><span class="toc-section-number">8.1</span>  Neural Networks and Backpropagation</a></li>
-  <li><a href="#convolutional-neural-networks-cnns" id="toc-convolutional-neural-networks-cnns" class="nav-link" data-scroll-target="#convolutional-neural-networks-cnns"><span class="toc-section-number">8.2</span>  Convolutional Neural Networks (CNNs)</a></li>
-  <li><a href="#recurrent-neural-networks-rnns" id="toc-recurrent-neural-networks-rnns" class="nav-link" data-scroll-target="#recurrent-neural-networks-rnns"><span class="toc-section-number">8.3</span>  Recurrent Neural Networks (RNNs)</a></li>
-  <li><a href="#applications-in-computer-vision-and-natural-language-processing" id="toc-applications-in-computer-vision-and-natural-language-processing" class="nav-link" data-scroll-target="#applications-in-computer-vision-and-natural-language-processing"><span class="toc-section-number">8.4</span>  Applications in Computer Vision and Natural Language Processing</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/jjallaire/hopr/edit/main/deep_learning.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Deep Learning</span></h1>
+<h1 class="title d-none d-lg-block">Deep Learning</h1>
 </div>
 
 
@@ -298,20 +314,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="neural-networks-and-backpropagation" class="level2" data-number="8.1">
-<h2 data-number="8.1" class="anchored" data-anchor-id="neural-networks-and-backpropagation"><span class="header-section-number">8.1</span> Neural Networks and Backpropagation</h2>
-</section>
-<section id="convolutional-neural-networks-cnns" class="level2" data-number="8.2">
-<h2 data-number="8.2" class="anchored" data-anchor-id="convolutional-neural-networks-cnns"><span class="header-section-number">8.2</span> Convolutional Neural Networks (CNNs)</h2>
-</section>
-<section id="recurrent-neural-networks-rnns" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="recurrent-neural-networks-rnns"><span class="header-section-number">8.3</span> Recurrent Neural Networks (RNNs)</h2>
-</section>
-<section id="applications-in-computer-vision-and-natural-language-processing" class="level2" data-number="8.4">
-<h2 data-number="8.4" class="anchored" data-anchor-id="applications-in-computer-vision-and-natural-language-processing"><span class="header-section-number">8.4</span> Applications in Computer Vision and Natural Language Processing</h2>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -454,8 +458,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./advanced_topics.html" class="pagination-link">
-        <span class="nav-page-text">Advanced Topics</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./nn_back_propagation.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Neural Networks and Backpropagation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

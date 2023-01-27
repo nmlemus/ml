@@ -91,37 +91,9 @@
     "text": "7.3 Anomaly Detection"
   },
   {
-    "objectID": "deep_learning.html#neural-networks-and-backpropagation",
-    "href": "deep_learning.html#neural-networks-and-backpropagation",
-    "title": "8  Deep Learning",
-    "section": "8.1 Neural Networks and Backpropagation",
-    "text": "8.1 Neural Networks and Backpropagation"
-  },
-  {
-    "objectID": "deep_learning.html#convolutional-neural-networks-cnns",
-    "href": "deep_learning.html#convolutional-neural-networks-cnns",
-    "title": "8  Deep Learning",
-    "section": "8.2 Convolutional Neural Networks (CNNs)",
-    "text": "8.2 Convolutional Neural Networks (CNNs)"
-  },
-  {
-    "objectID": "deep_learning.html#recurrent-neural-networks-rnns",
-    "href": "deep_learning.html#recurrent-neural-networks-rnns",
-    "title": "8  Deep Learning",
-    "section": "8.3 Recurrent Neural Networks (RNNs)",
-    "text": "8.3 Recurrent Neural Networks (RNNs)"
-  },
-  {
-    "objectID": "deep_learning.html#applications-in-computer-vision-and-natural-language-processing",
-    "href": "deep_learning.html#applications-in-computer-vision-and-natural-language-processing",
-    "title": "8  Deep Learning",
-    "section": "8.4 Applications in Computer Vision and Natural Language Processing",
-    "text": "8.4 Applications in Computer Vision and Natural Language Processing"
-  },
-  {
     "objectID": "conclusions.html",
     "href": "conclusions.html",
-    "title": "13  Conclusion",
+    "title": "16  Conclusion",
     "section": "",
     "text": "In summary, this book has no content whatsoever."
   },

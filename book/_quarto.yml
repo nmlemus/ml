@@ -1,0 +1,70 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  cover-image: logo_new.png
+  title: "Machine Learning"
+  description: | 
+    A summary of the best practices for summarizing output of reproducible scientific documents.
+  author:
+  - name: "Noel Moreno Lemus, Ph.D."
+    url: https://www.linkedin.com/in/nmlemus/
+    affiliation: Aiuda Academy
+    affiliation-url: https://www.linkedin.com/in/nmlemus/
+  page-navigation: true
+  search: true
+  favicon: logo_new.png
+  twitter-card: true
+  repo-url: https://github.com/jjallaire/hopr/
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
+  chapters:
+    - index.qmd
+    - part: "Fundamentals"
+      chapters:
+        - fundamentals.qmd
+    - part: supervised_learning.qmd
+      chapters:
+        - linear_regression.qmd
+        - logistic_regression.qmd
+        - decision_trees_random_forests.qmd
+        - svm.qmd
+        - neural_networks.qmd
+    - part: "Unsupervised Learning"
+      chapters:
+        - unsupervised_learning.qmd
+    - deep_learning.qmd
+    - advanced_topics.qmd
+    - conclusions.qmd
+    - references.qmd
+  appendices:
+    - appendices.qmd
+
+highlight-style: pygments
+
+comments:
+  hypothesis: true
+
+bibliography: references.bib
+
+format:
+  epub:
+    epub-cover-image: logo_new.png
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrbook
+    papersize: letter
+    colorlinks: true
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex
+
+
+

@@ -63,6 +63,13 @@
     "text": "Supervised learning is a type of machine learning where the model is trained on labeled data, where the desired output is provided for each input. The goal of supervised learning is to learn a mapping from inputs to outputs, so that the model can make predictions on new, unseen data.\nSupervised learning can be further divided into two categories: regression and classification. In regression, the output variable is continuous, and the goal is to predict a numerical value. For example, predicting the price of a house based on its square footage. In classification, the output variable is categorical, and the goal is to predict a class label. For example, classifying an email as spam or not spam.\nSupervised learning algorithms can be linear or non-linear, parametric or non-parametric, and they can be based on different assumptions and mathematical models. Some examples of supervised learning algorithms are linear regression, logistic regression, decision trees, k-nearest neighbors, and neural networks.\nSupervised learning is widely used in many applications, such as image and speech recognition, natural language processing, and predictive modeling. In this section, we will discuss the fundamentals of supervised learning, including the types of problems it can solve, the evaluation metrics used to measure its performance, and the algorithms and techniques used to solve those problems."
   },
   {
+    "objectID": "linear_regression.html",
+    "href": "linear_regression.html",
+    "title": "2  Linear Regression",
+    "section": "",
+    "text": "Linear regression is a statistical method for modeling the relationship between a dependent variable (also known as the response variable) and one or more independent variables (also known as predictor variables). The goal of linear regression is to find the line of best fit (i.e., the line that best represents the relationship between the variables) through a set of data points. The equation of the line of best fit is represented by a linear equation of the form \\(y = mx + b\\), where y is the dependent variable, x is the independent variable, m is the slope of the line, and b is the y-intercept. Linear regression can be used for both simple linear regression (one independent variable) and multiple linear regression (more than one independent variable)."
+  },
+  {
     "objectID": "unsupervised_learning.html#clustering",
     "href": "unsupervised_learning.html#clustering",
     "title": "7  Unsupervised Learning",

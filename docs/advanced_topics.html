@@ -8,7 +8,7 @@
 
 <meta name="description" content="A summary of the best practices for summarizing output of reproducible scientific documents.">
 
-<title>Machine Learning - 9&nbsp; Advanced Topics</title>
+<title>Machine Learning - Advanced Topics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./conclusions.html" rel="next">
+<link href="./graph_eural_networks.html" rel="next">
 <link href="./deep_learning.html" rel="prev">
 <link href="./logo_new.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <script async="" src="https://hypothes.is/embed.js"></script>
 
 
-<meta name="twitter:title" content="Machine Learning - 9&nbsp; Advanced Topics">
+<meta name="twitter:title" content="Machine Learning - Advanced Topics">
 <meta name="twitter:description" content="A summary of the best practices for summarizing output of reproducible scientific documents.">
 <meta name="twitter:card" content="summary">
 </head>
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Advanced Topics</span></h1>
+      <h1 class="quarto-secondary-nav-title">Advanced Topics</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -207,11 +207,21 @@ ul.task-list li input[type="checkbox"] {
   <a href="./deep_learning.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Deep Learning</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./advanced_topics.html" class="sidebar-item-text sidebar-link active">Advanced Topics</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./advanced_topics.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Advanced Topics</span></a>
+  <a href="./graph_eural_networks.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">graph_eural_networks.html</span></a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./conclusions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Conclusion</span></a>
@@ -224,12 +234,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Appendices</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Appendices</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./appendices.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Appendices</span></a>
@@ -246,9 +256,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#reinforcement-learning" id="toc-reinforcement-learning" class="nav-link active" data-scroll-target="#reinforcement-learning"><span class="toc-section-number">9.1</span>  Reinforcement Learning</a></li>
-  <li><a href="#generative-models" id="toc-generative-models" class="nav-link" data-scroll-target="#generative-models"><span class="toc-section-number">9.2</span>  Generative Models</a></li>
-  <li><a href="#model-interpretability" id="toc-model-interpretability" class="nav-link" data-scroll-target="#model-interpretability"><span class="toc-section-number">9.3</span>  Model Interpretability</a></li>
+  <li><a href="#reinforcement-learning" id="toc-reinforcement-learning" class="nav-link active" data-scroll-target="#reinforcement-learning">Reinforcement Learning</a></li>
+  <li><a href="#generative-models" id="toc-generative-models" class="nav-link" data-scroll-target="#generative-models">Generative Models</a></li>
+  <li><a href="#model-interpretability" id="toc-model-interpretability" class="nav-link" data-scroll-target="#model-interpretability">Model Interpretability</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/jjallaire/hopr/edit/main/advanced_topics.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
@@ -257,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Advanced Topics</span></h1>
+<h1 class="title d-none d-lg-block">Advanced Topics</h1>
 </div>
 
 
@@ -272,14 +282,14 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="reinforcement-learning" class="level2" data-number="9.1">
-<h2 data-number="9.1" class="anchored" data-anchor-id="reinforcement-learning"><span class="header-section-number">9.1</span> Reinforcement Learning</h2>
+<section id="reinforcement-learning" class="level2">
+<h2 class="anchored" data-anchor-id="reinforcement-learning">Reinforcement Learning</h2>
 </section>
-<section id="generative-models" class="level2" data-number="9.2">
-<h2 data-number="9.2" class="anchored" data-anchor-id="generative-models"><span class="header-section-number">9.2</span> Generative Models</h2>
+<section id="generative-models" class="level2">
+<h2 class="anchored" data-anchor-id="generative-models">Generative Models</h2>
 </section>
-<section id="model-interpretability" class="level2" data-number="9.3">
-<h2 data-number="9.3" class="anchored" data-anchor-id="model-interpretability"><span class="header-section-number">9.3</span> Model Interpretability</h2>
+<section id="model-interpretability" class="level2">
+<h2 class="anchored" data-anchor-id="model-interpretability">Model Interpretability</h2>
 
 
 </section>
@@ -425,8 +435,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./conclusions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Conclusion</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./graph_eural_networks.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">graph_eural_networks.html</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

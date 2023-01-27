@@ -36,7 +36,9 @@ book:
       chapters:
         - unsupervised_learning.qmd
     - deep_learning.qmd
-    - advanced_topics.qmd
+    - part: advanced_topics.qmd
+      chapters: 
+              - graph_eural_networks.qmd
     - conclusions.qmd
     - references.qmd
   appendices:

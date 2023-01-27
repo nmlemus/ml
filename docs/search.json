@@ -28,6 +28,13 @@
     "text": "Key Concepts and Terminology\nMachine learning is a complex field with many technical terms and concepts. Some key terms and concepts that will be covered in this book include:\n\nModel: a representation of the relationships between input data and output predictions or actions\nTraining: the process of fitting a model to a dataset\nTesting: the process of evaluating a model on new, unseen data\nOverfitting: when a model is too complex and performs well on the training data but poorly on the test data\nRegularization: a technique for preventing overfitting by adding a penalty term to the model’s objective function\nGradient descent: an optimization algorithm for finding the minimum of a function\nNeural networks: a type of model that is inspired by the structure and function of the human brain\nConvolutional neural networks (CNNs): a type of neural network designed for image recognition\nRecurrent neural networks (RNNs): a type of neural network designed for sequential data such as time series and natural language."
   },
   {
+    "objectID": "index.html#versions-used-in-this-book",
+    "href": "index.html#versions-used-in-this-book",
+    "title": "Machine Learning",
+    "section": "Versions Used in this Book",
+    "text": "Versions Used in this Book\n\nimport sys\nprint(\"Python version: {}\".format(sys.version))\nimport pandas as pd\nprint(\"pandas version: {}\".format(pd.__version__))\nimport matplotlib\nprint(\"matplotlib version: {}\".format(matplotlib.__version__))\nimport numpy as np\nprint(\"NumPy version: {}\".format(np.__version__))\nimport scipy as sp\nprint(\"SciPy version: {}\".format(sp.__version__))\nimport IPython\nprint(\"IPython version: {}\".format(IPython.__version__))\nimport sklearn\nprint(\"scikit-learn version: {}\".format(sklearn.__version__))\n\nPython version: 3.9.13 (main, Aug 25 2022, 23:26:10) \n[GCC 11.2.0]\npandas version: 1.4.4\nmatplotlib version: 3.5.2\nNumPy version: 1.21.5\nSciPy version: 1.9.1\nIPython version: 7.31.1\n\n\nscikit-learn version: 1.0.2"
+  },
+  {
     "objectID": "fundamentals.html#probability-and-statistics",
     "href": "fundamentals.html#probability-and-statistics",
     "title": "1  Fundamentals of Machine Learning",

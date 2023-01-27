@@ -38,7 +38,10 @@ book:
     - deep_learning.qmd
     - part: advanced_topics.qmd
       chapters: 
-              - graph_eural_networks.qmd
+              - graph_neural_networks.qmd
+              - reinforcement_learning.qmd
+              - generative_models.qmd
+              - model_interpretability.qmd
     - conclusions.qmd
     - references.qmd
   appendices:

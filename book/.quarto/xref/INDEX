@@ -1,0 +1,50 @@
+{
+  "index.qmd": {
+    "index.html": "41eaa1a1"
+  },
+  "intro.qmd": {
+    "intro.html": "6775c9bc"
+  },
+  "summary.qmd": {
+    "summary.html": "de314ead"
+  },
+  "references.qmd": {
+    "references.html": "7bbca162"
+  },
+  "fundamentals.qmd": {
+    "fundamentals.html": "f3e395dc"
+  },
+  "supervised_learning.qmd": {
+    "supervised_learning.html": "446522fb"
+  },
+  "unsupervised_learning.qmd": {
+    "unsupervised_learning.html": "bec7cec8"
+  },
+  "advanced_topics.qmd": {
+    "advanced_topics.html": "74650e42"
+  },
+  "conclusions.qmd": {
+    "conclusions.html": "032ed5d1"
+  },
+  "appendices.qmd": {
+    "appendices.html": "a4b6cd89"
+  },
+  "linear_regression.qmd": {
+    "linear_regression.html": "e144ebe2"
+  },
+  "logistic_regression.qmd": {
+    "logistic_regression.html": "e33f946f"
+  },
+  "decision_trees_random_forests.qmd": {
+    "decision_trees_random_forests.html": "550685ff"
+  },
+  "svm.qmd": {
+    "svm.html": "731ec7b9"
+  },
+  "neural_networks.qmd": {
+    "neural_networks.html": "7dbe9351"
+  },
+  "deep_learning.qmd": {
+    "deep_learning.html": "d50e8e34"
+  }
+}

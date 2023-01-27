@@ -1,0 +1,10 @@
+{
+  "hash": "da7ca450bad4413d961b7aea0adc8386",
+  "result": {
+    "markdown": "# Introduction\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\nMarkdown\\index{Markdown} allows you to write using\nan easy-to-read, easy-to-write plain text format.\n\nFor a demonstration of a line plot on a polar axis, see @fig-polar.\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![A line plot on a polar axis](intro_files/figure-pdf/fig-polar-output-1.pdf){#fig-polar fig-pos='H'}\n:::\n:::\n\n\n",
+    "supporting": [
+      "intro_files/figure-pdf"
+    ],
+    "filters": []
+  }
+}

@@ -62,6 +62,8 @@ Machine learning is a complex field with many technical terms and concepts. Some
 ## Versions Used in this Book
 
 ```{python}
+
+#| echo: true
 import sys
 print("Python version: {}".format(sys.version))
 import pandas as pd

@@ -1,0 +1,37 @@
+# Fundamentals of Machine Learning
+
+## Probability and Statistics
+
+### Introduction to Probability
+#### Definition of probability
+
+Probability is a measure of the likelihood of an event occurring. It is a value between 0 and 1, where 0 indicates that an event will never occur and 1 indicates that an event will always occur.
+
+Probability can be defined in different ways, but one of the most common ways is through the use of relative frequency. If we repeat an experiment many times and count the number of times an event of interest occurs, we can calculate the probability of that event as the ratio of the number of successful outcomes to the total number of trials. For example, if we flip a coin 10 times and it comes up heads 6 times, we can say that the probability of getting heads is 6/10 or 0.6.
+
+Probability can also be defined through the use of theoretical models. For example, in the coin flipping example, we can assume that the coin is fair and that the probability of getting heads is 0.5.
+
+Probability can be applied to many different types of events and situations, such as in gambling, finance, weather forecasting, medical diagnosis, and many more. In machine learning, probability is used to model the uncertainty of predictions, estimate model parameters and evaluate model performance.
+
+#### Random variables and events
+
+A random variable is a variable that takes on different values based on the outcome of a random experiment. The values of a random variable can be numerical or categorical, and the probability of each value is defined by a probability distribution.
+
+For example, in a coin-tossing experiment, the random variable X can take on the values of "heads" or "tails". The probability of getting heads is 0.5, and the probability of getting tails is also 0.5. We can represent the probability distribution of X in a table or a graph.
+
+An event is a set of outcomes from a random experiment. For example, in a coin-tossing experiment, the event "getting heads" is the set {heads}, and the event "getting tails" is the set {tails}.
+
+A random variable is said to be discrete if it can take on only a countable number of values and continuous if it can take on any value in an interval.
+
+For example, in a dice-rolling experiment, the random variable X can take on the values 1, 2, 3, 4, 5, or 6. X is a discrete random variable.
+
+On the other hand, in a temperature measurement experiment, the random variable X can take on any value between -273.15 and infinity (the absolute zero and the maximum temperature). X is a continuous random variable.
+
+In machine learning, random variables are used to represent the input and output of a model, the parameters of a model and the noise in the data. Understanding the properties of random variables and the events they can generate is important to design and analyze machine learning algorithms.
+
+#### Sample space and event space
+#### Axioms of probability
+
+## Linear Algebra
+## Optimization
+## Data Preprocessing and Feature Engineering

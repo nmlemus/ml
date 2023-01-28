@@ -16,7 +16,7 @@ book:
   search: true
   favicon: logo_new.png
   twitter-card: true
-  repo-url: https://github.com/jjallaire/hopr/
+  repo-url: https://github.com/nmlemus/ml/
   repo-actions: [edit]
   downloads: [pdf, epub]
   sharing: [twitter, facebook]
@@ -24,40 +24,44 @@ book:
     - index.qmd
     - part: "Fundamentals"
       chapters:
-        - fundamentals.qmd
-    - part: supervised_learning.qmd
+        - fundamentals/fundamentals.qmd
+    - part: supervised/supervised_learning.qmd
       chapters:
-        - linear_regression.qmd
-        - logistic_regression.qmd
-        - decision_trees_random_forests.qmd
-        - svm.qmd
-        - neural_networks.qmd
+        - supervised/linear_regression.qmd
+        - supervised/logistic_regression.qmd
+        - supervised/decision_trees_random_forests.qmd
+        - supervised/svm.qmd
+        - supervised/neural_networks.qmd
     - part: "Unsupervised Learning"
       chapters:
-        - unsupervised_learning.qmd
-    - part: deep_learning.qmd
+        - unsupervised/unsupervised_learning.qmd
+    - part: deep_learning/deep_learning.qmd
       chapters: 
-              - nn_back_propagation.qmd
-              - cnn.qmd
-              - rnn.qmd
-              - cv_nlp.qmd
-    - part: advanced_topics.qmd
+              - deep_learning/nn_back_propagation.qmd
+              - deep_learning/cnn.qmd
+              - deep_learning/rnn.qmd
+              - deep_learning/cv_nlp.qmd
+    - part: advanced/advanced_topics.qmd
       chapters: 
-              - graph_neural_networks.qmd
-              - reinforcement_learning.qmd
-              - generative_models.qmd
-              - model_interpretability.qmd
+              - advanced/graph_neural_networks.qmd
+              - advanced/reinforcement_learning.qmd
+              - advanced/generative_models.qmd
+              - advanced/model_interpretability.qmd
     - conclusions.qmd
-    - references.qmd
+    - ref_appendices/references.qmd
   appendices:
-    - appendices.qmd
+    - ref_appendices/appendices.qmd
 
 highlight-style: pygments
 
 comments:
   hypothesis: true
 
-bibliography: references.bib
+page-footer:
+    right: "This page is built with [Aiuda Academy](https://quarto.org/)."
+    left: "&copy; CC-1.0"
+
+bibliography: ref_appendices/references.bib
 
 execute:
     echo: false

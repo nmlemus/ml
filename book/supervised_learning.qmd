@@ -1,9 +1,0 @@
-# Supervised Learning
-
-Supervised learning is a type of machine learning where the model is trained on labeled data, where the desired output is provided for each input. The goal of supervised learning is to learn a mapping from inputs to outputs, so that the model can make predictions on new, unseen data.
-
-Supervised learning can be further divided into two categories: regression and classification. In regression, the output variable is continuous, and the goal is to predict a numerical value. For example, predicting the price of a house based on its square footage. In classification, the output variable is categorical, and the goal is to predict a class label. For example, classifying an email as spam or not spam.
-
-Supervised learning algorithms can be linear or non-linear, parametric or non-parametric, and they can be based on different assumptions and mathematical models. Some examples of supervised learning algorithms are linear regression, logistic regression, decision trees, k-nearest neighbors, and neural networks.
-
-Supervised learning is widely used in many applications, such as image and speech recognition, natural language processing, and predictive modeling. In this section, we will discuss the fundamentals of supervised learning, including the types of problems it can solve, the evaluation metrics used to measure its performance, and the algorithms and techniques used to solve those problems.

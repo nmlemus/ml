@@ -37,16 +37,16 @@ book:
         - unsupervised/unsupervised_learning.qmd
     - part: deep_learning/deep_learning.qmd
       chapters: 
-              - deep_learning/nn_back_propagation.qmd
-              - deep_learning/cnn.qmd
-              - deep_learning/rnn.qmd
-              - deep_learning/cv_nlp.qmd
+        - deep_learning/nn_back_propagation.qmd
+        - deep_learning/cnn.qmd
+        - deep_learning/rnn.qmd
+        - deep_learning/cv_nlp.qmd
     - part: advanced/advanced_topics.qmd
       chapters: 
-              - advanced/graph_neural_networks.qmd
-              - advanced/reinforcement_learning.qmd
-              - advanced/generative_models.qmd
-              - advanced/model_interpretability.qmd
+        - advanced/graph_neural_networks.qmd
+        - advanced/reinforcement_learning.qmd
+        - advanced/generative_models.qmd
+        - advanced/model_interpretability.qmd
     - conclusions.qmd
     - ref_appendices/references.qmd
   appendices:
@@ -58,8 +58,8 @@ comments:
   hypothesis: true
 
 page-footer:
-    right: "This page is built with [Aiuda Academy](https://quarto.org/)."
-    left: "&copy; CC-1.0"
+  right: "This page is built with [Aiuda Academy](https://quarto.org/)."
+  left: "&copy; CC-1.0"
 
 bibliography: ref_appendices/references.bib
 

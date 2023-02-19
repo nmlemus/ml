@@ -32,7 +32,7 @@
     "href": "index.html#versions-used-in-this-book",
     "title": "Machine Learning",
     "section": "Versions Used in this Book",
-    "text": "Versions Used in this Book\n\n\nCode\nimport sys\nprint(\"Python version: {}\".format(sys.version))\nimport pandas as pd\nprint(\"pandas version: {}\".format(pd.__version__))\nimport matplotlib\nprint(\"matplotlib version: {}\".format(matplotlib.__version__))\nimport numpy as np\nprint(\"NumPy version: {}\".format(np.__version__))\nimport scipy as sp\nprint(\"SciPy version: {}\".format(sp.__version__))\nimport IPython\nprint(\"IPython version: {}\".format(IPython.__version__))\nimport sklearn\nprint(\"scikit-learn version: {}\".format(sklearn.__version__))\n\n\nPython version: 3.9.13 (main, Aug 25 2022, 23:26:10) \n[GCC 11.2.0]\npandas version: 1.4.4\nmatplotlib version: 3.5.2\nNumPy version: 1.21.5\nSciPy version: 1.9.1\nIPython version: 7.31.1\n\n\nscikit-learn version: 1.0.2"
+    "text": "Versions Used in this Book\n\n\nCode\nimport sys\nprint(\"Python version: {}\".format(sys.version))\nimport pandas as pd\nprint(\"pandas version: {}\".format(pd.__version__))\nimport matplotlib\nprint(\"matplotlib version: {}\".format(matplotlib.__version__))\nimport numpy as np\nprint(\"NumPy version: {}\".format(np.__version__))\nimport scipy as sp\nprint(\"SciPy version: {}\".format(sp.__version__))\nimport IPython\nprint(\"IPython version: {}\".format(IPython.__version__))\nimport sklearn\nprint(\"scikit-learn version: {}\".format(sklearn.__version__))\n\n\nPython version: 3.9.2 (default, Feb 28 2021, 17:03:44) \n[GCC 10.2.1 20210110]\npandas version: 1.5.2\nmatplotlib version: 3.6.3\nNumPy version: 1.24.1\nSciPy version: 1.10.0\nIPython version: 8.8.0\n\n\nscikit-learn version: 1.2.0"
   },
   {
     "objectID": "fundamentals/fundamentals.html#probability-and-statistics",
@@ -61,6 +61,13 @@
     "title": "1  Fundamentals of Machine Learning",
     "section": "1.4 Data Preprocessing and Feature Engineering",
     "text": "1.4 Data Preprocessing and Feature Engineering"
+  },
+  {
+    "objectID": "optimization/optimization.html",
+    "href": "optimization/optimization.html",
+    "title": "Optimization",
+    "section": "",
+    "text": "Optimization can mean different things. Mathematically speaking, it is possible to write and optimization problem in the form of:\n\\[ min_{x \\in R^n} f_{i}(x), (i=1, 2, \\dots, M)\\]"
   },
   {
     "objectID": "supervised/supervised_learning.html",

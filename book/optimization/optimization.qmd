@@ -1,0 +1,6 @@
+# Optimization
+
+Optimization can mean different things. Mathematically speaking, it is possible to write and optimization problem in the form of:
+
+$$ min_{x \in R^n} f_{i}(x), (i=1, 2, \dots, M)$$
+

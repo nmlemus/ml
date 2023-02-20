@@ -63,11 +63,18 @@
     "text": "1.4 Data Preprocessing and Feature Engineering"
   },
   {
-    "objectID": "optimization/optimization.html",
-    "href": "optimization/optimization.html",
-    "title": "Optimization",
-    "section": "",
-    "text": "Optimization can mean different things. Mathematically speaking, it is possible to write and optimization problem in the form of:\n\\[ min_{x \\in R^n} f_{i}(x), (i=1, 2, \\dots, M)\\]"
+    "objectID": "optimization/optimization.html#integer-programming",
+    "href": "optimization/optimization.html#integer-programming",
+    "title": "2  Optimization",
+    "section": "2.1 Integer Programming",
+    "text": "2.1 Integer Programming"
+  },
+  {
+    "objectID": "optimization/optimization.html#other-topics",
+    "href": "optimization/optimization.html#other-topics",
+    "title": "2  Optimization",
+    "section": "2.2 Other topics",
+    "text": "2.2 Other topics"
   },
   {
     "objectID": "supervised/supervised_learning.html",
@@ -79,35 +86,35 @@
   {
     "objectID": "supervised/linear_regression.html#learning-by-examples",
     "href": "supervised/linear_regression.html#learning-by-examples",
-    "title": "2  Linear Regression",
-    "section": "2.1 Learning by Examples",
-    "text": "2.1 Learning by Examples\nFor this example, we will be using salary data from Kaggle. The data consists of two columns, years of experience and the corresponding salary. The data can be downloaded from here.\n\n\n\n\n\n\n  \n    \n      \n      YearsExperience\n      Salary\n    \n  \n  \n    \n      0\n      1.1\n      39343.0\n    \n    \n      1\n      1.3\n      46205.0\n    \n    \n      2\n      1.5\n      37731.0\n    \n    \n      3\n      2.0\n      43525.0\n    \n    \n      4\n      2.2\n      39891.0\n    \n  \n\n\n\n\n\n\nCode\nimport plotly.express as px\nimport plotly.io as pio\npio.renderers.default = \"notebook+pdf\"\npio.kaleido.scope.default_format = \"png\"\ndf = px.data.iris()\nfig = px.scatter(df, x=\"sepal_width\", y=\"sepal_length\", \n                 color=\"species\", \n                 marginal_y=\"violin\", marginal_x=\"box\", \n                 trendline=\"ols\", template=\"simple_white\")\nfig.show()\n\n\n\n                                                \n\n\n\n\n\n\n\nFigure 2.1: Simple Plot"
+    "title": "3  Linear Regression",
+    "section": "3.1 Learning by Examples",
+    "text": "3.1 Learning by Examples\nFor this example, we will be using salary data from Kaggle. The data consists of two columns, years of experience and the corresponding salary. The data can be downloaded from here.\n\n\n\n\n\n\n  \n    \n      \n      YearsExperience\n      Salary\n    \n  \n  \n    \n      0\n      1.1\n      39343.0\n    \n    \n      1\n      1.3\n      46205.0\n    \n    \n      2\n      1.5\n      37731.0\n    \n    \n      3\n      2.0\n      43525.0\n    \n    \n      4\n      2.2\n      39891.0\n    \n  \n\n\n\n\n\n\nCode\nimport plotly.express as px\nimport plotly.io as pio\npio.renderers.default = \"notebook+pdf\"\npio.kaleido.scope.default_format = \"png\"\ndf = px.data.iris()\nfig = px.scatter(df, x=\"sepal_width\", y=\"sepal_length\", \n                 color=\"species\", \n                 marginal_y=\"violin\", marginal_x=\"box\", \n                 trendline=\"ols\", template=\"simple_white\")\nfig.show()\n\n\n\n                                                \n\n\n\n\n\n\n\nFigure 3.1: Simple Plot"
   },
   {
     "objectID": "unsupervised/unsupervised_learning.html#clustering",
     "href": "unsupervised/unsupervised_learning.html#clustering",
-    "title": "7  Unsupervised Learning",
-    "section": "7.1 Clustering",
-    "text": "7.1 Clustering"
+    "title": "8  Unsupervised Learning",
+    "section": "8.1 Clustering",
+    "text": "8.1 Clustering"
   },
   {
     "objectID": "unsupervised/unsupervised_learning.html#dimensionality-reduction",
     "href": "unsupervised/unsupervised_learning.html#dimensionality-reduction",
-    "title": "7  Unsupervised Learning",
-    "section": "7.2 Dimensionality Reduction",
-    "text": "7.2 Dimensionality Reduction"
+    "title": "8  Unsupervised Learning",
+    "section": "8.2 Dimensionality Reduction",
+    "text": "8.2 Dimensionality Reduction"
   },
   {
     "objectID": "unsupervised/unsupervised_learning.html#anomaly-detection",
     "href": "unsupervised/unsupervised_learning.html#anomaly-detection",
-    "title": "7  Unsupervised Learning",
-    "section": "7.3 Anomaly Detection",
-    "text": "7.3 Anomaly Detection"
+    "title": "8  Unsupervised Learning",
+    "section": "8.3 Anomaly Detection",
+    "text": "8.3 Anomaly Detection"
   },
   {
     "objectID": "conclusions.html",
     "href": "conclusions.html",
-    "title": "16  Conclusion",
+    "title": "17  Conclusion",
     "section": "",
     "text": "In summary, this book has no content whatsoever."
   },

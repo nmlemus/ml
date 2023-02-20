@@ -25,7 +25,9 @@ book:
     - part: "Fundamentals"
       chapters:
         - fundamentals/fundamentals.qmd
-    - part: optimization/optimization.qmd
+    - part: "Optimization"
+      chapters: 
+              - optimization/optimization.qmd
     - part: supervised/supervised_learning.qmd
       chapters:
         - supervised/linear_regression.qmd

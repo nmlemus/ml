@@ -499,7 +499,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><img src="optimization_files/figure-html/cell-4-output-1.png" width="633" height="537"></p>
 </div>
 </div>
-<p>The global minimum occurs at <span class="math inline">\((x, y) = (0,0)\)</span>, <span class="citation" data-cites="module-min">(<a href="../ref_appendices/references.html#ref-module-min" role="doc-biblioref"><strong>module-min?</strong></a>)</span>, but the derivatives at <span class="math inline">\((0,0)\)</span> are not well defined due to the factor <span class="math inline">\(|x| + |y|\)</span> and there is some discontinuity in the first derivatives. In this case, it is not possible to use gradient-based optimization methods. Obviously, we can use gradient-free method such as the Nelder-Mead downhill simplex method. But as the objective function is multimodal (because of the sine function), such optimization methods are very sensitive to the starting point. If the starting point is far from the the sought minimum, the algorithm will usually get stuck in a local minimum and/or simply fail.</p>
+<p>The global minimum occurs at <span class="math inline">\((x, y) = (0,0)\)</span>, <span class="citation" data-cites="module-min">(<a href="../ref_appendices/references.html#ref-module-min" role="doc-biblioref"><strong>module-min?</strong></a>)</span>, but the derivatives at <span class="math inline">\((0,0)\)</span> are not well defined due to the factor <span class="math inline">\(|x| + |y|\)</span> and there is some discontinuity in the first derivatives. In this case, it is not possible to use gradient-based optimization methods. Obviously, we can use gradient-free method such as the Nelder-Mead downhill simplex method. But as the objective function is multimodal (because of the sine function), such optimization methods are very sensitive to the starting point.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Optimization Sensitive to the Starting Point
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If the objective function is multimodal, and the starting point is far from the the sought minimum, the algorithm will usually get stuck in a local minimum and/or simply fail.</p>
+</div>
+</div>
 <div class="cell" data-execution_count="4">
 <details>
 <summary>Code</summary>

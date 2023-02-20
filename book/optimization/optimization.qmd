@@ -104,7 +104,13 @@ figRos.colorbar(surf, shrink=0.5, aspect=10)
 plt.show()
 ```
 
-The global minimum occurs at $(x, y) = (0,0)$, @module-min, but the derivatives at $(0,0)$ are not well defined due to the factor $|x| + |y|$ and there is some discontinuity in the first derivatives. In this case, it is not possible to use gradient-based optimization methods. Obviously, we can use gradient-free method such as the Nelder-Mead downhill simplex method. But as the objective function is multimodal (because of the sine function), such optimization methods are very sensitive to the starting point. If the starting point is far from the the sought minimum, the algorithm will usually get stuck in a local minimum and/or simply fail. 
+The global minimum occurs at $(x, y) = (0,0)$, @module-min, but the derivatives at $(0,0)$ are not well defined due to the factor $|x| + |y|$ and there is some discontinuity in the first derivatives. In this case, it is not possible to use gradient-based optimization methods. Obviously, we can use gradient-free method such as the Nelder-Mead downhill simplex method. But as the objective function is multimodal (because of the sine function), such optimization methods are very sensitive to the starting point. 
+
+::: {.callout-tip}
+## Optimization Sensitive to the Starting Point
+
+If the objective function is multimodal, and the starting point is far from the the sought minimum, the algorithm will usually get stuck in a local minimum and/or simply fail.
+:::
 
 ```{python}
 #| echo: true
